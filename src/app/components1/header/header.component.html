@@ -1,0 +1,40 @@
+<!-- <header class="header-section" (scroll)="onScroll()" [ngClass]="navbarfixed?'fixed':'nofixed'"> -->
+<header class="header-section" (scroll)="onScroll()" [ngClass]="navbarfixed?'fixed':'nofixed'">
+    <div class="overlay">
+        <div class="container">
+            <div class="row d-flex header-area">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="https://web.tayrexmeet.com/frontend/">
+                        <img src="assets/images/logo-light.png" class="logo" alt="logo">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-content">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown main-navbar">
+                                <a class="nav-link" routerLink="/about-us">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown main-navbar">
+                                <a class="nav-link" routerLink="/contact-us">Contact Us</a>
+                            </li>
+                            <li class="nav-item dropdown main-navbar">
+                                <a class="nav-link" routerLink="/faqs">Faqs</a>
+                            </li>
+                            <li class="nav-item dropdown main-navbar">
+                                <a class="nav-link" routerLink="/how-it-works">How it works</a>
+                            </li>
+                        </ul>
+                        <div class="right-area header-action d-flex align-items-center max-un">
+                            <a href="https://web.tayrexmeet.com/login.html" class="login">Login</a>
+                            <a href="https://web.tayrexmeet.com/register.html" class="cmn-btn">Sign Up
+                                <i class="icon-d-right-arrow-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
